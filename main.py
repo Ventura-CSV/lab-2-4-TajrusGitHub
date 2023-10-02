@@ -16,4 +16,4 @@ def string_operations():
     print("Merged String:", merged_str)  # Corrected the variable name
 
 if __name__ == '__main__':
-    string_operations()
+    string_operations() 
