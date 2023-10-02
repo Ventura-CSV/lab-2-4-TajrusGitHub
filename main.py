@@ -7,7 +7,7 @@ def main():
     # Extract "Programming" using index slicing
     sub2 = original_str[7:]
 
-    # Merge the substrings using concatenation
+    # Merge the substrings using concatenation in the correct order
     merged_str = sub2 + " " + sub1
 
     print("Original String:", original_str)
