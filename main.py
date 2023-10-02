@@ -1,4 +1,4 @@
-def string_operations():
+def main():
     original_str = "Python Programming"
 
     # Extract "Python" using index slicing
@@ -8,12 +8,12 @@ def string_operations():
     sub2 = original_str[7:]
 
     # Merge the substrings using concatenation
-    merged_str = sub2 + " " + sub1  # Corrected the variable name
+    merged_str = sub2 + " " + sub1
 
     print("Original String:", original_str)
     print("Extracted Substring 1:", sub1)
     print("Extracted Substring 2:", sub2)
-    print("Merged String:", merged_str)  # Corrected the variable name
+    print("Merged String:", merged_str)
 
 if __name__ == '__main__':
-    string_operations()  
+    main()
